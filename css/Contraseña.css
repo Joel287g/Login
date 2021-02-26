@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+.icon-mode{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 50px;
+}
+
+.body-dark{
+    background-color: rgba(0, 0, 0, 0.802);
+    color: #fff;
+}
+
+.contraseña-box{
+    width: 320px;
+    height: 340px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 50px;
+}
+
+.contraseña-box .icon-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.contraseña-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.contraseña-box h5{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+.contraseña-box label{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-weight: bold;
+}
+
+.contraseña-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contraseña-box input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contraseña-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(114, 188, 233);
+    font-size: 18px;
+    border-radius: 20px;
+    opacity: 95%;
+}
+
+.contraseña-box input[type="submit"]:hover{
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.contraseña-box a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgray;
+    display: block;
+    text-align: center;
+}
+
+.contraseña-box a:hover{
+    color: #fff;
+}

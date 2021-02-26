@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/Icono.ico">
+    <link rel="stylesheet" href="css/Registro.css">
+
+    <title>Registro</title>
+</head>
+<body id="body">
+
+    <a href="#" onclick="cambiarModo()"><img src="imagenes/Sun-Moon.png" class="icon-mode"></a>
+
+    <div class="register-box" id="register-box">
+        <img class="icon-box" src="imagenes/Icono.png" alt="Icono de Helping You">
+        <h1>Registrar</h1>
+
+        <form>
+            <div class="container">
+                <div class="div-left">
+                    <!-- Nombre -->
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Ingrese su nombre">
+
+                    <!-- Apellido -->
+                    <label for="apellido">Apellido</label>
+                    <input type="text" placeholder="Ingrese su apellido">
+
+                    <!-- Usuario -->
+                    <label for="usuario">Usuario</label>
+                    <input type="text" placeholder="Ingrese un nombre de usuario">
+
+                    <!-- Contraseña -->
+                    <label for="contrasenna">Contraseña</label>
+                    <input type="password" placeholder="Ingrese una contraseña">
+
+                    <!-- Correo electronico -->
+                    <label for="correo">Correo electronico</label>
+                    <input type="text" placeholder="Ingrese su correo electronico">
+                </div>        
+
+                <div class="div-right">
+                    <!-- Número de telefono -->
+                    <label for="numero">Número de telefono</label>
+                    <input type="text" placeholder="Ingrese su número de telefono">
+
+                    <!-- Gofundme -->
+                    <label for="gofundme">Gofundme</label>
+                    <input type="text" placeholder="Ingrese su enlace Gofundme">
+
+                    <!-- Doctor -->
+                    <label class="label-doctor">¿Usted es doctor?<input type="checkbox" id="checkbox" onclick="mostrarContenido()"></label>
+
+                    <div class="div-doctor" id="div-doctor">
+                        <!-- Especialidad -->
+                        <label for="especialidad">Especialidad</label>
+                        <input type="text" placeholder="Ingrese su especialidad">
+
+                        <!-- Cargo -->
+                        <label for="cargo">Cargo</label>
+                        <input type="text" placeholder="Ingrese su cargo">
+
+                        <!-- Dirección de consultorio -->
+                        <label for="direccion">Dirección</label>
+                        <input type="text" placeholder="Ingrese la dirección de su consultorio">
+                    </div>
+
+                    <!-- Tipo de cáncer -->
+                    <label for="cancer" class="label-cancer">Tipo de cáncer</label>
+                    <select class="select-cancer">
+                        <option>Cáncer de Mama</option>
+                        <option>Cáncer de Higado</option>
+                        <option>Cáncer de Pulmón</option>
+                        <option>Cáncer de Piel</option>
+                        <option>Cáncer de Próstata</option>
+                    </select>
+
+                    <!-- Botón -->
+                    <input type="submit" value="Registrar"> <br>
+
+                    <!-- Enlaces -->
+                    <a href="index.html">Ya tengo una cuenta</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+
+    <script src="js/My JQuery.js"></script>
+
+</html>

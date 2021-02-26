@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+.icon-mode{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 50px;
+}
+
+.body-dark{
+    background-color: rgba(0, 0, 0, 0.802);
+    color: #fff;
+}
+
+.register-box{
+    width: 800px;
+    height: 560px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 50px;
+}
+
+.register-box .icon-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.register-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.register-box form .container{
+    display: flex;
+}
+
+.register-box form .container .div-left{
+    width: 50%;
+    padding-left: 120px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.register-box form .container .div-right{
+    width: 50%;
+    padding-right: 50px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.register-box label{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-weight: bold;
+}
+
+.register-box input{
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.register-box input[type="text"],
+.register-box input[type="password"]{
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.register-box input[type="checkbox"]{
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    width: 50px;
+}
+
+.register-box .div-right .label-doctor{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.803);
+    width: 72%;
+    margin-bottom: 20px;
+}
+
+.register-box .div-right .div-doctor{
+    display: none;
+}
+
+.register-box .label-cancer{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.register-box .select-cancer{
+    border-radius: 30px;
+    background-color: #393B44;
+    color: #fff;
+    width: 50%;
+    height: 30px;
+    font-size: 16px;
+}
+
+.register-box .select-cancer option{
+    border-radius: 30px;
+}
+
+.register-box input[type="submit"]{
+    margin-top: 50px;
+    margin-left: 50px;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(114, 188, 233);
+    font-size: 18px;
+    border-radius: 20px;
+    opacity: 95%;
+}
+
+.register-box input[type="submit"]:hover{
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.register-box a{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgray;
+    margin-left: 40px;
+}
+
+.register-box a:hover{
+    color: #fff;
+}
